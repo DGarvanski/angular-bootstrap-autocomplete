@@ -44,7 +44,11 @@ export class AutocompleteComponent implements OnInit {
   }
 
   selectEntry(entry) {
-    this.filter = entry[this.entryProperty];
+    if (typeof this.entryProperty != 'undefined') {
+      this.filter = entry[this.entryProperty];
+    } else {
+      this.filter = entry;
+    }
     this.showResults = false;
     this.onEntrySelected.emit(entry);
   }
