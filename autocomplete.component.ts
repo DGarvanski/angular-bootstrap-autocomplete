@@ -35,7 +35,6 @@ export class AutocompleteComponent implements OnInit {
   inputFieldFocused() {
     let inputId = 'inputField' + this.inputId;
     let menuId = '#menu' + this.inputId + ' ' + 'a';
-    console.log(menuId);
     document.getElementById(inputId).addEventListener('keydown', function (e) {
       if (e.key == "ArrowDown") {
         (document.querySelectorAll(menuId)[0] as any).focus();
