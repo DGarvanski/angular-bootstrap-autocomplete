@@ -6,7 +6,7 @@ A simple autocomplete component for Angular and Bootstrap
 
 **1.** As of now, you should clone the component from the Github repository:
 
-`git clone http://github.com/DGarvanski/angular-bootstrap-autocomplete`
+`git clone http://github.com/DGarvanski/angular-bootstrap-autocomplete.git`
 
 **2.** Import/Include the `BootstrapAutocompleteModule`
 
