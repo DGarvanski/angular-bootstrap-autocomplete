@@ -79,6 +79,15 @@ There is also one event fired on selecting an option from the dropdown menu:
 
 `<bootstrap-autocomplete (onEntrySelected)="doSomeStuffWithTheSelection($event)"></bootstrap-autocomplete>`
 
+# Styling
+You can style the component by using regular Bootstrap dropdown menu and input field classes and the added classes:
+
+`.bs-autocomplete-container` - The wrapping container that sets the position to relative
+
+`.bs-autocomplete-input` - Additional styles for the input field
+
+`.bs-autocomplete-menu` - Sets the positioning for the dropdown menu inside the container
+
 
 
 
