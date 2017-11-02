@@ -66,7 +66,9 @@ Text for the input field placeholder
 Modifies the `id` of the input field and dropdown menu. Should be used when having more than one `<bootstrap-autocomplete></bootstrap-autocomplete>` on a page (**TODO**: Should be replaced by an element reference);
 
 `<bootstrap-autocomplete inputId="0"></bootstrap-autocomplete>`
+
 `<bootstrap-autocomplete inputId="1"></bootstrap-autocomplete>`
+
 `<bootstrap-autocomplete inputId="iCouldBeJustARandomString"></bootstrap-autocomplete>`
 
 
