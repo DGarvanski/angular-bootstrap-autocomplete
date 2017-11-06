@@ -1,5 +1,5 @@
 <div class="bs-autocomplete-container">
-  <input [id]="'inputField' + inputId" class="form-control" class="bs-autocomplete-input"
+  <input [id]="'inputField' + inputId" class="form-control bs-autocomplete-input"
          [ngModel]="filter" (ngModelChange)="filterEntries($event)" data-toggle="dropdown"
          (focus)="inputFieldFocused()"
          placeholder="{{inputPlaceholder}}"/>
